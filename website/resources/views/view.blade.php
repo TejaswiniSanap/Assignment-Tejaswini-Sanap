@@ -11,14 +11,14 @@
         <!-- <title>AM Productions Free HTML5 Responsive Template | Template Stock</title> -->
         
         <!-- CSS -->
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/simplegrid.css">
-        <link rel="stylesheet" href="css/icomoon.css">
-        <link rel="stylesheet" href="css/lightcase.css">
-        <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css" />
-        <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
-        <link rel="stylesheet" href="js/owl-carousel/owl.transitions.css" />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{{ asset('assets/css/reset.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/simplegrid.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/icomoon.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/lightcase.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/js/owl-carousel/owl.carousel.css') }}" />
+        <link rel="stylesheet" href="{{ asset('assets/js/owl-carousel/owl.theme.css') }}" />
+        <link rel="stylesheet" href="{{ asset('assets/js/owl-carousel/owl.transitions.css') }}" />
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
         <!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
@@ -40,7 +40,9 @@
                         <div class="content">
                             <div class="">
                                 
-                                <a class="newlogo" data-rel="" title="" href="images/logo/am-productions-logo.png">AM Productions</a>
+                                <a class="newlogo" data-rel="" title="" href="
+                                
+                                {{ asset('assets/images/logo/am-productions-logo.png') }}">AM Productions</a>
                             </div>
                             <nav class="navigation">
                                 <input type="checkbox" id="nav-button">
@@ -67,7 +69,7 @@
                     <div class="col-1-1">
                          <div class="content content-header" >
                             <h2>We Are Creative Design Agency</h2>
-                            <p>It is very important for the customer to pay attention to the adipiscing process. If he flees, he will follow the consequences, unless he pleases any of the elders to bear them. Which, rejecting nothing, often chooses to follow the free less and happy choice itself.</p>
+                            <p>We deliver customer's imagination</p>
                             <a target="_blank" class="btn btn-ghost" href="#">Find Out More</a>
                         </div>
                     </div>
@@ -136,10 +138,11 @@
                         <div class="col-1-3 mix illustration">
                             <div class="content">
                                 <div class="recent-work">
-                                    <img src="images/work/1-small.jpg" alt="">                                    
+                                    <img src="{{ asset('assets/images/work/1-small.jpg') }}">
                                     <div class="overlay">
                                         <span>Illustration</span>
-                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Asian tourist - Illustration" href="images/work/1-big.jpg">Asian tourist</a></h2>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Asian tourist - Illustration" href="
+                                        {{ asset('assets/images/work/1-big.jpg') }}">Asian tourist</a></h2>
                                     </div>
                                     
                                 </div>
@@ -148,10 +151,10 @@
                         <div class="col-1-3 mix photography">
                             <div class="content">
                                 <div class="recent-work">
-                                    <img src="images/work/5-small.jpg" alt="">
+                                    <img src="{{ asset('assets/images/work/5-small.jpg') }}" alt="">
                                     <div class="overlay">
                                         <span>Photography</span>
-                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Blue flowers - Photography" href="images/work/5-big.jpg">Blue flowers</a></h2>
+                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Blue flowers - Photography" href="{{ asset('assets/images/work/5-big.jpg') }}">Blue flowers</a></h2>
                                     </div>
                                 </div>
                             </div>
@@ -159,10 +162,10 @@
                         <div class="col-1-3 mix illustration">
                             <div class="content">
                                 <div class="recent-work">
-                                    <img src="images/work/2-small.jpg" alt="">
+                                    <img src="{{ asset('assets/images/work/2-small.jpg') }}" alt="">
                                     <div class="overlay">
                                         <span>Illustration</span>
-                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Batman Wannabe - Illustration" href="images/work/2-big.jpg">Batman Wannabe</a></h2>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Batman Wannabe - Illustration" href="{{ asset('assets/images/work/2-big.jpg') }}">Batman Wannabe</a></h2>
                                     </div>
                                 </div>
                             </div>
@@ -170,10 +173,10 @@
                         <div class="col-1-3 mix photography">
                             <div class="content">
                                 <div class="recent-work">
-                                    <img src="images/work/8-small.jpg" alt="">
+                                    <img src="{{ asset('assets/images/work/8-small.jpg') }}" alt="">
                                     <div class="overlay">
                                         <span>Photography</span>
-                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Big city and dreams - Photography" href="images/work/8-big.jpg">Big city and dreams</a></h2>
+                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Big city and dreams - Photography" href="{{ asset('assets/images/work/8-big.jpg') }}">Big city and dreams</a></h2>
                                     </div>
                                 </div>
                             </div>
@@ -181,10 +184,10 @@
                         <div class="col-1-3 mix web-design">
                             <div class="content">
                                 <div class="recent-work">
-                                    <img src="images/work/6-small.jpg" alt="">
+                                    <img src="{{ asset('assets/images/work/6-small.jpg') }}" alt="">
                                     <div class="overlay">
                                         <span>Web Design</span>
-                                        <h2><a class="img-wrap" data-rel="lightcase:webdesign" title="Minimal nature - Web Design" href="images/work/6-big.jpg">Minimal nature</a></h2>
+                                        <h2><a class="img-wrap" data-rel="lightcase:webdesign" title="Minimal nature - Web Design" href="{{ asset('assets/images/work/6-big.jpg') }}">Minimal nature</a></h2>
                                     </div>
                                 </div>
                                 </div>
@@ -192,10 +195,10 @@
                             <div class="col-1-3 mix web-design">
                             <div class="content">
                                 <div class="recent-work">
-                                    <img src="images/work/3-small.jpg" alt="">
+                                    <img src="{{ asset('assets/images/work/3-small.jpg') }}" alt="">
                                     <div class="overlay">
                                         <span>Illustration</span>
-                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Jack the sailor - Illustration" href="images/work/3-big.jpg">Jack the sailor</a></h2>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Jack the sailor - Illustration" href="{{ asset('assets/images/work/3-big.jpg') }}">Jack the sailor</a></h2>
                                     </div>
                                 </div>
                                 </div>
@@ -203,10 +206,10 @@
                             <div class="col-1-3 mix photography">
                             <div class="content">
                                 <div class="recent-work">
-                                    <img src="images/work/7-small.jpg" alt="">
+                                    <img src="{{ asset('assets/images/work/7-small.jpg') }}" alt="">
                                     <div class="overlay">
                                         <span>Photography</span>
-                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Enjoy live - Photography" href="images/work/7-big.jpg">Enjoy live</a></h2>
+                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Enjoy live - Photography" href="{{ asset('assets/images/work/7-big.jpg') }}">Enjoy live</a></h2>
                                     </div>
                                 </div>
                                 </div>
@@ -214,10 +217,10 @@
                             <div class="col-1-3 mix illustration">
                             <div class="content">
                                 <div class="recent-work">
-                                    <img src="images/work/4-small.jpg" alt="">
+                                    <img src="{{ asset('assets/images/work/4-small.jpg') }}" alt="">
                                     <div class="overlay">
                                         <span>Illustration</span>
-                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Run kitty run - Photography" href="images/work/4-big.jpg">Run kitty run</a></h2>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Run kitty run - Photography" href="{{ asset('assets/images/work/4-big.jpg') }}">Run kitty run</a></h2>
                                     </div>
                                 </div>
                                 </div>
@@ -225,10 +228,10 @@
                             <div class="col-1-3 mix illustration">
                             <div class="content">
                                 <div class="recent-work">
-                                    <img src="images/work/9-small.jpg" alt="">
+                                    <img src="{{ asset('assets/images/work/9-small.jpg') }}" alt="">
                                     <div class="overlay">
                                         <span>Web Design</span>
-                                        <h2><a class="img-wrap" data-rel="lightcase:webdesign" title="Would you? - Web Design" href="images/work/9-big.jpg">Would you?</a></h2>
+                                        <h2><a class="img-wrap" data-rel="lightcase:webdesign" title="Would you? - Web Design" href="{{ asset('assets/images/work/9-big.jpg') }}">Would you?</a></h2>
                                     </div>
                                 </div>
                                 </div>
@@ -296,7 +299,7 @@
                         <div class="col-1-2" >
                             <article class="post-wrap">
                                 <div class="post-img">
-                                    <a href="#0"><img src="images/post/post-n1.jpg" alt=""></a>
+                                    <a href="#0"><img src="{{ asset('assets/images/post/post-n1.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="post">
                                     <h2 class="entry-title"><a href="#0">Drawing hour</a></h2>
@@ -313,7 +316,7 @@
                         <div class="col-1-2" >
                             <article class="post-wrap">
                                 <div class="post-img">
-                                    <a href="#0"><img src="images/post/post-n3.jpg" alt=""></a>
+                                    <a href="#0"><img src="{{ asset('assets/images/post/post-n3.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="post">
                                     <h2 class="entry-title"><a href="#0">On vacation</a></h2>
@@ -495,85 +498,7 @@
                     <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
                 </svg>
 
-                <!-- Clients Logos Section -->
-                <div class="wrap" >
-                    <div class="grid grid-pad">
-                        <div class="col-1-1">
-                            <div class="content">
-                                <!-- Start of Carousel Container -->
-                                <div class="cl-logo-carousel col-sm-12">
-                                    
-                                    <div class="item"><!-- Start of item -->
-                                    <a href="#">
-                                        <figure>
-                                            <img src="images/clients/1.png" alt="" />
-                                        </figure>
-                                    </a>
-                                    </div><!-- End of item -->
-                                    
-                                    <div class="item"><!-- Start of item -->
-                                    <a href="#">
-                                        <figure>
-                                            <img src="images/clients/2.png" alt="" />
-                                        </figure>
-                                    </a>
-                                    </div><!-- End of item -->
-                                    
-                                    <div class="item"><!-- Start of item -->
-                                    <a href="#">
-                                        <figure>
-                                            <img src="images/clients/3.png" alt="" />
-                                        </figure>
-                                    </a>
-                                    </div><!-- End of item -->
-                                    
-                                    <div class="item"><!-- Start of item -->
-                                    <a href="#">
-                                        <figure>
-                                            <img src="images/clients/4.png" alt="" />
-                                        </figure>
-                                    </a>
-                                    </div><!-- End of item -->
-                                    
-                                    <div class="item"><!-- Start of item -->
-                                    <a href="#">
-                                        <figure>
-                                            <img src="images/clients/5.png" alt="" />
-                                        </figure>
-                                    </a>
-                                    </div><!-- End of item -->
-                                    
-                                    <div class="item"><!-- Start of item -->
-                                    <a href="#">
-                                        <figure>
-                                            <img src="images/clients/1.png" alt="" />
-                                        </figure>
-                                    </a>
-                                    </div><!-- End of item -->
-                                    
-                                    <div class="item"><!-- Start of item -->
-                                    <a href="#">
-                                        <figure>
-                                            <img src="images/clients/2.png" alt="" />
-                                        </figure>
-                                    </a>
-                                    </div><!-- End of item -->
-                                    
-                                    <div class="item"><!-- Start of item -->
-                                    <a href="#">
-                                        <figure>
-                                            <img src="images/clients/3.png" alt="" />
-                                        </figure>
-                                    </a>
-                                    </div><!-- End of item -->
-                                    
-                                </div>
-                                <!-- End of Carousel Container -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Clients Logos Section -->
+
 
               
 
@@ -680,12 +605,12 @@
                                     <h3>Flickr Feed</h3>
                                     <div class="flickr-widget">
                                         <ul class="flickr-list">
-                                            <li><a href="#0"><img src="images/flickr-widget/flickr1.jpg" alt=""></a></li>
-                                            <li><a href="#0"><img src="images/flickr-widget/flickr2.jpg" alt=""></a></li>
-                                            <li><a href="#0"><img src="images/flickr-widget/flickr3.jpg" alt=""></a></li>
-                                            <li><a href="#0"><img src="images/flickr-widget/flickr4.jpg" alt=""></a></li>
-                                            <li><a href="#0"><img src="images/flickr-widget/flickr5.jpg" alt=""></a></li>
-                                            <li><a href="#0"><img src="images/flickr-widget/flickr6.jpg" alt=""></a></li>
+                                            <li><a href="#0"><img src="{{ asset('assets/images/flickr-widget/flickr1.jpg') }}" alt=""></a></li>
+                                            <li><a href="#0"><img src="{{ asset('assets/images/flickr-widget/flickr2.jpg') }}" alt=""></a></li>
+                                            <li><a href="#0"><img src="{{ asset('assets/images/flickr-widget/flickr3.jpg') }}" alt=""></a></li>
+                                            <li><a href="#0"><img src="{{ asset('assets/images/flickr-widget/flickr4.jpg') }}" alt=""></a></li>
+                                            <li><a href="#0"><img src="{{ asset('assets/images/flickr-widget/flickr5.jpg') }}" alt=""></a></li>
+                                            <li><a href="#0"><img src="{{ asset('assets/images/flickr-widget/flickr6.jpg') }}" alt=""></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -722,15 +647,15 @@
                 </div>
 
                 <!-- JS -->
-                <script src="js/jquery.js"></script>
-                <script src="js/main.js"></script>
-                <script src="js/mixitup.js"></script>
-                <script src="js/smoothscroll.js"></script>
-                <script src="js/jquery.nav.js"></script>
-                <script src="js/owl-carousel/owl.carousel.min.js"></script>
+                <script src="{{ asset('assets/js/jquery.js') }}"></script>
+                <script src="{{ asset('assets/js/main.js') }}"></script>
+                <script src="{{ asset('assets/js/mixitup.js') }}"></script>
+                <script src="{{ asset('assets/js/smoothscroll.js') }}"></script>
+                <script src="{{ asset('assets/js/jquery.nav.js') }}"></script>
+                <script src="{{ asset('assets/js/jquery.owl-carousel/owl.carousel.min.js') }}"></script>
                 <script src="https://maps.googleapis.com/maps/api/js"></script>
                 <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-                <script src="js/jquery.counterup.min.js"></script>
-                <script src="js/lightcase.min.js"></script>
+                <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
+                <script src="{{ asset('assets/js/lightcase.min.js') }}"></script>
             </body>
         </html>

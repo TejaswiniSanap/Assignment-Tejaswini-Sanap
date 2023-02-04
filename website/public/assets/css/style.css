@@ -328,7 +328,7 @@ blockquote p {
   width: 104px;
   height: 46px;
   text-indent: -9999px;
-  background: url(images/logo.svg) no-repeat;
+  background: url(/assets/images/logo.svg) no-repeat;
   background-size: 104px 46px;
 }
 .newlogo {
@@ -500,15 +500,15 @@ blockquote p {
 }
 
 .home-slide-1 {
-  background-image: url('images/slider/big1.jpg');
+  background-image: url('/assets/images/slider/big1.jpg');
 }
 
 .home-slide-2 {
-  background-image: url('images/slider/big2.jpg');
+  background-image: url('/assets/images/slider/big2.jpg');
 }
 
 .home-slide-3 {
-  background-image: url('images/slider/big3.jpg');
+  background-image: url('/assets/images/slider/big3.jpg');
 }
 
 /* *********************************************************
@@ -518,14 +518,14 @@ blockquote p {
 .parallax-section {
   z-index: -1;
   clear: both;
-  background-image: url('images/home.jpg');
+  background-image: url('/assets/images/home.jpg');
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center center;
 }
 
 .parallax2 {
-  background-image: url('images/parallax2.jpg');
+  background-image: url('/assets/images/parallax2.jpg');
 }
 
 .parallax-section .content, .top-slider .content-header, .home-slider {
@@ -795,7 +795,7 @@ blockquote p {
   width: 8px;
   height: 22px;
   text-indent: -9999px;
-  background: url(images/arrows.png) no-repeat;
+  background: url(/assets/images/arrows.png) no-repeat;
 }
 
 .header-carousel .owl-buttons .owl-prev {
@@ -1137,7 +1137,7 @@ blockquote p {
   background-color: #2C2D31;
   background-repeat: no-repeat;
   background-size: 32px 64px;
-  background-image: url("images/cd-icon-controller.svg");
+  background-image: url("/assets/images/cd-icon-controller.svg");
 }
 
 #cd-zoom-in:hover, #cd-zoom-out:hover {
